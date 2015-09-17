@@ -1,0 +1,35 @@
+# Site settings
+title: Niklas' free software blog
+email: nikwen.developer@gmail.com
+description: >
+  This is my free software blog where I will regularly post
+  about my encounters in the free software world and give
+  updates on my projects.
+baseurl: "/"
+url: "http://nikwen.github.io"
+author:
+  name: "Niklas Wenzel"
+  email: "nikwen.developer@gmail.com"
+  url: "http://nikwen.github.io"
+paginate: 8
+
+# Build settings
+markdown: kramdown
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Gems
+gems:
+  - jekyll-feed
+
+# Options
+custom_header: false
+custom_nav_footer: true
+reverse: false
