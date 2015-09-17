@@ -6,12 +6,12 @@ description: >
   about my encounters in the free software world and give
   updates on my projects.
 baseurl: "/"
-url: "http://nikwen.github.io"
 author:
   name: "Niklas Wenzel"
   email: "nikwen.developer@gmail.com"
   url: "http://nikwen.github.io"
 paginate: 8
+timezone: Europe/Berlin
 
 # Build settings
 markdown: kramdown
