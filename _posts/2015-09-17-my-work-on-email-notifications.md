@@ -2,7 +2,7 @@
 layout:     post
 title:      "My work on email notifications (including an installable preview)"
 date:       2015-09-17 23:30:00 +0200
-categories: general
+categories: ubuntu
 ---
 
 One day after the [UbuContest](http://ubucon.de/2015/contest) was announced, I started working on email notifications. I was looking for a new project anyway and as I [have](https://code.launchpad.net/~nikwen/account-polld/donechan-fix/+merge/238898) [fixed](https://code.launchpad.net/~nikwen/account-polld/authenticate-again-fix/+merge/238900) [multiple](https://code.launchpad.net/~nikwen/account-polld/directly-poll-with-new-account-data-fix/+merge/238901) [issues](https://code.launchpad.net/~nikwen/indicator-messages/clear-all-unescape-fix/+merge/258261) [related to](https://code.launchpad.net/~nikwen/ubuntu-push/gmail-missed-messages-cleanup-fix-new/+merge/264919) Gmail notifications in the past (they use the Gmail API), implementing general-purpose email notifications looked like a [great challenge](https://bugs.launchpad.net/dekko/+bug/1421923) to me.
