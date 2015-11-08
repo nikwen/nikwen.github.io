@@ -103,3 +103,5 @@ Please note that this is a preliminary version. Things *will* change so I do not
 I did all of this work with the UbuContest in mind. While I haven't finished this yet, I have done a substantial part of the work. I now need you to [nominate](http://ubucon.de/2015/contest/nominate-individual) me for the contest and add a link to this blog post. I promise I will bring this to an end and finish the implementation.
 
 Thanks a lot in advance and have fun!
+
+**EDIT:** I [won](http://ubucon.de/node/971)!
