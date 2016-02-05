@@ -30,6 +30,7 @@ defaults:
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Options
 custom_header: false
