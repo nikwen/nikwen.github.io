@@ -54,10 +54,12 @@
 
 #nav-menu {
   @include icon-position(right);
+  cursor: pointer;
 }
 
 #nav-menu-left {
   @include icon-position(left);
+  cursor: pointer;
 }
 
 #menu {
@@ -104,10 +106,10 @@
 /* Main content */
 
 .fixed {
-  position: fixed;
-  @media (min-width: 940px) {
-    position: static;
-  }
+  position: fixed !important;
+}
+.static {
+  position: static;
 }
 
 #container {
