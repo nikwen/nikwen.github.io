@@ -29,6 +29,7 @@ defaults:
 # Gems
 gems:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Options
 custom_header: false
