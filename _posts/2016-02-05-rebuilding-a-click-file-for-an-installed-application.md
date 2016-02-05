@@ -16,22 +16,26 @@ Here you go:
 * First of all, install the respective application from the Ubuntu Store.
 * Then open a shell on your device, either using the terminal app or ADB.
 * Afterwards, copy the source code of the application to your home directory:
+
   ```
   $ cp -r /opt/click.ubuntu.com/com.ubuntu.developer.nikwen.forum-app ~
   ```
 * The only file we need to care about separately is the `manifest.json`:
+
   ```
   $ cd ~/com.ubuntu.developer.nikwen.forum-app/current
   $ cp .click/info/com.ubuntu.developer.nikwen.forum-app.manifest manifest.json
   $ cd ..
   ```
 * Now we can rebuild the click file:
+
   ```
   $ click build current
   ```
 * That's it. :)
 
   You can install the click package using the following command:
+
   ```
   pkcon install-local com.ubuntu.developer.nikwen.forum-app_0.3.1_all.click --allow-untrusted
   ```
