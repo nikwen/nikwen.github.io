@@ -37,7 +37,7 @@ Here you go:
   You can install the click package using the following command:
 
   ```
-  pkcon install-local com.ubuntu.developer.nikwen.forum-app_0.3.1_all.click --allow-untrusted
+  $ pkcon install-local com.ubuntu.developer.nikwen.forum-app_0.3.1_all.click --allow-untrusted
   ```
 
 Please note that our own click file won't be signed with the official appstore certificate though, but that shouldn't really bother anyone. ;)
