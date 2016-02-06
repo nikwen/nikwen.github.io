@@ -200,6 +200,10 @@ img {
   overflow: auto;
 }
 
+code.highlighter-rouge {
+  word-wrap: break-word;
+}
+
 code {
   color: lighten($text-color, 35%);
   background-color: lighten($background-color, 35%);
