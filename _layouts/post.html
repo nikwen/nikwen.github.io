@@ -1,13 +1,16 @@
 ---
 layout: default
 ---
-<article id="post-page">
-	<h2>{{ page.title }}</h2>		
-	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
-	<div class="content">
+<article id="post-page" itemscope="" itemtype="http://schema.org/BlogPosting">
+	<meta itemprop="keywords" content="{{ page.categories | join: ',' }}" />
+  <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+	<meta itemprop="image" content="{{ "img/logo.png" | prepend: site.baseurl }}" />
+
+	<h2 itemprop="name">{{ page.title }}</h2>
+	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" itemprop="datePublished">{{ page.date | date_to_string }}</time>
+	<div class="content" itemprop="articleBody">
 
 		{{ content }}
-		
+
 	</div>
 </article>
-
