@@ -4,7 +4,7 @@ layout: default
 <article id="post-page" itemscope="" itemtype="http://schema.org/BlogPosting">
 	<meta itemprop="keywords" content="{{ page.categories | join: ',' }}" />
   <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-	<meta itemprop="image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}/img/logo_192.png{% endif %}" />
+	<meta itemprop="image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}/img/logo_128.png{% endif %}" />
 
 	<h2 itemprop="name">{{ page.title }}</h2>
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line" itemprop="datePublished">{{ page.date | date_to_string }}</time>
